@@ -48,7 +48,7 @@ def load_sessions():
         file_list=os.listdir("session")
         for filename in file_list:
             if filename.endswith(".json"):
-                sessions_lit.append(filename[:-5])
+                sessions_list.append(filename[:-5])
     sessions_list.sort(reverse=True)  #排序,倒序
     return sessions_list
 
@@ -107,7 +107,7 @@ if "messages" not in st.session_state:
 
 #昵称
 if "nick_name" not in st.session_state:
-    st.session_state.nick_name = "赵露思"  #默认的昵称
+    st.session_state.nick_name = "小张"  #默认的昵称
 #性格
 if "nature" not in st.session_state:
     st.session_state.nature = "活泼开朗的四川妹子"  #默认的性格
