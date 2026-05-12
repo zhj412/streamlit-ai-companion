@@ -16,3 +16,7 @@
 1.  安装依赖：
     ```bash
     pip install -r requirements.txt
+
+## 🖼️ 界面预览
+项目运行主界面：
+![AI智能伴侣运行界面](images/demo.png)
